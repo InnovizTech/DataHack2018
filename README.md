@@ -21,7 +21,7 @@ Field of view - 80°X40°\
 Resolution - 0.2°X0.2°\
 Maximal distance - 100m\
 Minimal distance - 3m\
-Coordinate system origin - center of the Lidar, translation between Lidar and center of ego vehicle is (x=0.6, y=0.0, z=1.3)[m] 
+Coordinate system origin - Center of the Lidar, translation between Lidar and center of ego vehicle is (x=0.6, y=0.0, z=1.3)[m] 
 ## Coordinate system:
 We always use right hand coordinate system, x is forward and z is upward.
 ## Each frame consists of 3 types of data (different csv files).
@@ -46,7 +46,9 @@ Points that belong to moving objects are labeled by 1 all others by 0.\
 label[0-1]\
 number of rows is identical to point cloud file.
 ## How to download the data set
-Coming soon..
+Just download test and train set ant unzip them.\
+[Test set](http://innoviz-datahack-data.s3.amazonaws.com/Test.7z)\
+[Train set](http://innoviz-datahack-data.s3.amazonaws.com/Train.7z)
 # In The Repo
 **YOU DON'T NEED TO BE A 3D OR POINT CLOUD EXPERT!!**\
 We will give you all you need to get started with point cloud data. Every thing we give is open source and you are more than welcome to explore our source code and change it to suit your need.\
