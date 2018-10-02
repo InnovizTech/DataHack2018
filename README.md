@@ -21,7 +21,7 @@ Field of view - 80°X40°\
 Resolution - 0.2°X0.2°\
 Maximal distance - 100m\
 Minimal distance - 3m\
-Coordinate system origin - geometric center of the ego car
+Coordinate system origin - center of the Lidar, translation between Lidar and center of ego vehicle is (x=0.6, y=0.0, z=1.3)[m] 
 ## Coordinate system:
 We always use right hand coordinate system, x is forward and z is upward.
 ## Each frame consists of 3 types of data (different csv files).
@@ -37,7 +37,7 @@ number of rows (number of point in point cloud) is unknown.
 Ego motion is the motion of the vehicle on which the Lidar is mounted. Applying the ego motion translation and rotation to the point cloud will transform it to the global coordinate system. \
 Rotation order: rotation_x -> rotation_y -> rotation_z
 **File structure**\
-rotation_x[rad], rotation_y[rad], rotation_z[rad], translation_x[cm], translation_y[cm], translation_z[cm]\
+rotation_x[rad], rotation_y[rad], rotation_z[rad], translation_x[m], translation_y[m], translation_z[m]\
 single row 
 
 ### 3. Labels

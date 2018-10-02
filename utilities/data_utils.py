@@ -7,6 +7,7 @@
 import os.path as osp
 import glob
 import pandas as pd
+import numpy as np
 import re
 
 
@@ -16,10 +17,27 @@ def find_sorted_files(main_dir, file_type):
     return sorted(glob.glob(path_re))
 
 
-def read_all_data(folder, index):
-    return read_data(folder, index, 'pointcloud'), \
-           read_data(folder, index, 'egomotion'), \
-           read_data(folder, index, 'labels')
+def read_all_data(folder, index, mounting_vector=(0.6, 0., 1.3)):
+    """
+    Reads all (available) data files and "fixes" Lidar coordinate system origin.
+    :param folder:
+    :param index:
+    :return:
+    """
+    pc = read_data(folder, index, 'pointcloud')
+    pc[:, :3] += np.array(mounting_vector)
+    try:
+        ego_motion = read_data(folder, index, 'egomotion')
+    except FileNotFoundError:
+        ego_motion = None
+
+    try:
+        labels = read_data(folder, index, 'labels')
+    except FileNotFoundError:
+        labels = None
+
+    return pc, ego_motion, labels
+
 
 
 def read_data(folder, index, data_type):
@@ -37,7 +55,6 @@ def read_data(folder, index, data_type):
         return data * cm_to_m_factor
     if data_type == 'egomotion':
         data = pd.read_csv(file_name, delimiter=',', header=None).values.ravel()
-        data[3:] *= cm_to_m_factor
         return data
     if data_type == 'labels':
         return pd.read_csv(file_name, delimiter=',', dtype=int, header=None).values
