@@ -1,3 +1,6 @@
+# PARTICIPANTS - Please Register at our Whatsapp Group
+
+https://chat.whatsapp.com/BXXoSFUktpHHrK3izaRfCw
 
 # DATAHACK 2018
 ![](https://cdn.oemoffhighway.com/files/base/acbm/ooh/image/2018/01/640w/Innoviz_Logo_Hi_Res_LiDAR.5a4f8282e7012.jpg)\
