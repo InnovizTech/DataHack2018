@@ -10,7 +10,7 @@ Detect all points that belong to a moving object!
 
 Check out our [online point cloud](https://innoviz-datahack.s3.amazonaws.com/index.html) (open in chrome)
 
-# Score board
+# Leaderboard
 | Team | Score |
 | ------ | ------ |
 | Sorry4YourLoss | 28.85 |
