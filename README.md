@@ -13,11 +13,13 @@ Check out our [online point cloud](https://innoviz-datahack.s3.amazonaws.com/ind
 # Leaderboard
 | Team | Score |
 | ------ | ------ |
-| Sorry4YourLoss - #2 | 31.95%
+| Sorry4YourLoss - #2 | 31.95% |
+| Arthur - #2 | 30.35% |
 | Arthur - #1 | 29.38% |
 | Sorry4YourLoss - #0 | 28.85% |
 | Sorry4YourLoss - #1 | 28.7% |
 | Arthur - #0 | 27.74% |
+| Not Netanel - #1 | 20.22% |
 | Talos - #1 | 18.22% |
 | AAA - #0 | 2.34% |
 
