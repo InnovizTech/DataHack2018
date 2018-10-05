@@ -15,12 +15,14 @@ Check out our [online point cloud](https://innoviz-datahack.s3.amazonaws.com/ind
 | ------ | ------ |
 | Sorry4YourLoss - #2 | 31.95% |
 | Arthur - #2 | 30.35% |
+| Arthur - #3 | 29.97% |
 | Arthur - #1 | 29.38% |
 | Sorry4YourLoss - #0 | 28.85% |
 | Sorry4YourLoss - #1 | 28.7% |
 | Arthur - #0 | 27.74% |
 | Not Netanel - #1 | 20.22% |
 | Talos - #1 | 18.22% |
+| Not Netanel - #2 | 6.69% |
 | AAA - #0 | 2.34% |
 
 # Dataset
