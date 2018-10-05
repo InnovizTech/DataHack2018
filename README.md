@@ -13,9 +13,12 @@ Check out our [online point cloud](https://innoviz-datahack.s3.amazonaws.com/ind
 # Leaderboard
 | Team | Score |
 | ------ | ------ |
-| Sorry4YourLoss | 28.85 |
-| Arthur | 27.74 |
-| AAA | 2.34 |
+| Arthur - #1 | 29.38 |
+| Sorry4YourLoss - #0 | 28.85 |
+| Sorry4YourLoss - #1 | 28.7 |
+| Arthur - #0 | 27.74 |
+| Talos - #1 | 18.22|
+| AAA - #0 | 2.34 |
 
 # Dataset
 The dataset consists of simulated videos of urban driving.\
